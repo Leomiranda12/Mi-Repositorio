@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+header {
+  height: 85px;
+  background-color: rgb(54, 54, 238);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 60px;
+}
+.menu a{
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+nav a{
+  font-weight: 600;
+  padding-right: 20px;
+  color: black;
+}
+nav a:hover {
+  background-color: #1a3f64;
+}
+section .banner {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.section1{
+  background-color: #3c76b1;
+}
+.imagen{
+  height: 250px;
+}
+.container{
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  display: flex;
+  justify-content:space-between;
+}
+.container2{
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.container3{
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.letra{
+  color: rgb(0, 0, 0);
+  margin-right: 200px;
+}
+.titulos{
+  padding: 20px;
+  background-image: url(./IMAGENES/Estadio1.jpg);
+}
+.titulos h1{
+  padding-left: 700px;
+}
+.imag{
+  height: 400px;
+  padding: 0;
+  margin: 0;
+  border-radius: 10px;
+}
+.container4{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: blue;
+}
+.container5{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: blue;
+}
+.container6{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: blue;
+}
+.container7{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: blue;
+}
+.estadio{
+  height: 450px;
+  padding: 15px;
+  border-radius: 20px;
+}
+.parrafo2{
+  color: beige;
+}
+.pie-pagina{
+  width: 100%;
+  background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:150px;
+  padding: 25px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-1 .box h2{
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+  color: #efefef;
+  margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #0d2033;
+  text-align: center;
+  transition: all 300ms ease;
+}
+.pie-pagina .grupo-2{
+  background-color: #0a1a2a;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+.pie-pagina .grupo-2 small{
+  font-size: 15px;
+}
+@media screen and (max-width:800px){
+  .pie-pagina .grupo-1{
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap:30px;
+      padding: 35px 0px;
+  }
+}
+.imag1{
+  height:100px;
+}
+.imag2 {
+  height: 45px;
+}

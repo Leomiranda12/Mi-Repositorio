@@ -4,14 +4,6 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-header {
-  height: 85px;
-  background-color: rgb(54, 54, 238);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-}
 .logo{
   display: flex;
   align-items: center;

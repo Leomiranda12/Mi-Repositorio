@@ -31,25 +31,26 @@ section .banner {
   padding: 0;
 }
 .section1{
-  background-color: #3c76b1;
+  background-color:#0a141d;
 }
 .imagen{
   height: 250px;
 }
 .container{
-  background-color: rgb(255, 255, 255);
-  padding: 10px;
+  margin: 0;
+  background-color: rgb(74, 95, 216);
+  padding: 0px;
   display: flex;
   justify-content:space-between;
 }
 .container2{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(74, 92, 253);
   padding: 10px;
   display: flex;
   justify-content: space-between;
 }
 .container3{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(74, 104, 238);
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -63,7 +64,7 @@ section .banner {
   background-image: url(./IMAGENES/Estadio1.jpg);
 }
 .titulos h1{
-  padding-left: 700px;
+  padding-left: 400px;
 }
 .imag{
   height: 400px;
@@ -75,25 +76,31 @@ section .banner {
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  background-color: blue;
+  background: linear-gradient(lightblue,skyblue,blue);
 }
 .container5{
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  background-color: blue;
+  background: linear-gradient(lightblue,skyblue,blue);
 }
 .container6{
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  background-color: blue;
+  background: radial-gradient(lightblue,skyblue,blue);
 }
 .container7{
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  background-color: blue;
+  background: linear-gradient(lightblue,skyblue,blue);
+}
+.container8 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: linear-gradient(lightblue,skyblue,blue);
 }
 .estadio{
   height: 450px;
@@ -161,9 +168,28 @@ section .banner {
       padding: 35px 0px;
   }
 }
-.imag1{
+.imag1 {
   height:100px;
+  transform: rotate(0deg);
+  transition: all 2s;
+}
+.imag1:hover {
+  transform: rotate(360deg);
 }
 .imag2 {
   height: 45px;
+}
+.d-item {
+  height: 600px;
+}
+.d-img {
+  height: 100%;
+  object-fit: cover;
+}
+.imag3 {
+  transform: rotate(0deg);
+  transition: all 2s;
+}
+.imag3:hover {
+  transform: rotate(360deg);
 }

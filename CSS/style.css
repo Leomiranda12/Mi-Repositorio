@@ -26,12 +26,19 @@ nav a:hover {
   background-color: #1a3f64;
 }
 .banner {
-  height: cover;
+  height:fixed;
   margin: 0;
   padding: 0;
 }
+.imag4{
+display: none;
+}
 .section1{
+  margin: 0;
   background-color:rgb(74, 95, 216);
+}
+.section2{
+  background-color:rgb(74, 95, 216) ;
 }
 .imagen{
   height: 250px;
@@ -59,11 +66,16 @@ nav a:hover {
   margin-right: 200px;
 }
 .titulos{
-  padding: 20px;
-  background-image: url(./IMAGENES/Estadio1.jpg);
+  padding: 10px;
+  background-image:url(../IMAGENES/bg2.avif);
+  color: #efefef;
+ 
+}
+.titulo3{
+  color:darkblue
 }
 .titulos h1{
-  padding-left: 400px;
+  padding-left: 40px;
 }
 .imag{
   height: 400px;
@@ -99,16 +111,28 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background: linear-gradient(lightblue,skyblue,blue);
+    background: linear-gradient(lightblue,rgb(89, 109, 197),blue);
+}
+.container9{
+  display: flex;
+  gap: 15px;
+}
+.containerr{
+  display: flex;
+  padding-left: 10px;
 }
 .estadio{
   height: 450px;
   padding: 15px;
   border-radius: 20px;
 }
-.parrafo2{
+.parrafo1{
   font-size:large;
-  color: beige;
+  color: rgb(43, 65, 138);
+}
+.parrafo2{
+  font-size: large;
+  color:rgb(32, 44, 82) ;
 }
 .pie-pagina{
   width: 100%;
@@ -192,4 +216,39 @@ nav a:hover {
 }
 .imag3:hover {
   transform: rotate(360deg);
+}
+@media screen and (max-width:800px){
+  .container{
+    flex-direction: column;
+  }
+  .container2{
+    flex-direction: column;
+  }
+  .container3{
+    flex-direction: column;
+  }
+  .container4{
+    flex-direction: column;
+  }
+  .container5{
+    flex-direction: column;
+  }
+  .container6{
+    flex-direction: column;
+  }
+  .container7{
+    flex-direction: column;
+  }
+  .container8{
+    flex-direction: column;
+  }
+  .container9{
+    flex-direction: column;
+  }
+  .imag5{
+    display: none;
+  }
+  .imag4{
+    display:block;
+  }
 }
